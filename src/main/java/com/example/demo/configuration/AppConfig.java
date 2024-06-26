@@ -82,6 +82,7 @@ public class AppConfig extends OncePerRequestFilter {
         response.setHeader("Access-Control-Allow-Headers", "*");
         response.setHeader("Access-Control-Allow-Credentials", "true");
         filterChain.doFilter(request, response);
+
     }
 
 }
